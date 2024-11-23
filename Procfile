@@ -1,1 +1,1 @@
-web: gunicorn CabildoGranPutumayo.wsgi --log-file -
+web: gunicorn CabildoGranPutumayo.wsgi:application --log-file -
