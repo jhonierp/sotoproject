@@ -87,9 +87,9 @@ WSGI_APPLICATION = 'CabildoGranPutumayo.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'cabildo',
+        'NAME': 'cabildos',
         'USER': 'root',
-        'PASSWORD': '1234',
+        'PASSWORD': 'admin',
         'HOST': 'localhost',
         'PORT': '3306'
     }
