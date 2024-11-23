@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'CabildoGranPutumayo.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
-
+"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -94,7 +94,17 @@ DATABASES = {
         'PORT': '3306'
     }
 }
-
+"""
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'sotoprueba',
+        'USER': 'soto',
+        'PASSWORD': 'TmKKZX1d3AHONM9dLP6qRmBo6rBOV1CD',
+        'HOST': 'dpg-ct13ha9u0jms73cc0r0g-a.oregon-postgres.render.com',  # O la dirección IP de tu servidor MySQL
+        'PORT': '5432',       # Puerto de MySQL (por defecto es 3306)
+    }
+}
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
 
